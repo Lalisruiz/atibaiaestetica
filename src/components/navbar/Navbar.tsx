@@ -8,7 +8,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className=" mx-auto px-4 py-4 bg-linear-to-b from-[#F4E4C1] to-[#D4AF37] ">
+        <nav className=" mx-auto px-4 py-4 bg-linear-to-b from-[#F4E4C1] to-[#D4AF37] fixed top-0   w-full ">
             <div className="flex justify-between items-center">
                 <div className="flex items-center space-x-2">
                   <a href="#home">
