@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Envelope, Clock, InstagramLogo, FacebookLogo } from '@phosphor-icons/react';
+import { MapPin, Phone, Clock, InstagramLogo, FacebookLogo } from '@phosphor-icons/react';
 
 const Footer: React.FC = () => {
   return (
@@ -7,36 +7,27 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           
-          {/* Branding e Descrição */}
+          {/* Logo Section */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <MapPin size={24} className="text-[#2C2416]" />
-              <h3 className="text-2xl font-bold text-[#2C2416]">
-                <span className="text-[#FFF8E7]">LR</span> Estética
-              </h3>
-            </div>
-            <p className="text-[#2C2416] font-medium">
-              Unindo tecnologia e ciência a serviço da sua beleza
-            </p>
-          </div>
-
-          {/* Contato */}
+            <img 
+              src="https://i.ibb.co/99601sS7/logolrestetica-Photoroom-1.png" 
+              alt="LR Estética Logo" 
+              className="w-48 h-auto object-contain mt-8" 
+            />
+          </div>          {/* Contato */}
           <div className="space-y-4">
             <h4 className="text-xl font-bold text-[#2C2416]">Contato</h4>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone size={20} className="text-[#2C2416]" />
-                <span className="text-[#2C2416] font-medium">(11) 99999-9999</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Envelope size={20} className="text-[#2C2416]" />
-                <span className="text-[#2C2416] font-medium">contato@clinica.com.br</span>
+                <span className="text-[#2C2416] font-medium">+55 93058-0653</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin size={20} className="text-[#2C2416] mt-1" />
                 <div className="text-[#2C2416] font-medium">
-                  <p>Rua Exemplo, 123</p>
-                  <p>São Paulo, SP</p>
+                  <p>Rua Dr Luís Alberto Vieira dos Santos, 18</p>
+                  <p>Edifício Carraro Tower</p>
+                  <p>Atibaia, SP</p>
                 </div>
               </div>
             </div>
@@ -48,15 +39,17 @@ const Footer: React.FC = () => {
             <div className="flex items-start space-x-3">
               <Clock size={20} className="text-[#2C2416] mt-1" />
               <div className="text-[#2C2416] font-medium">
-                <p>Seg-Sex: 9h às 18h</p>
-                <p>Sáb: 9h às 13h</p>
+                <p>Segunda a Sexta</p>
+                <p>Somente com horário marcado</p>
               </div>
             </div>
             
             {/* Redes Sociais */}
             <div className="flex space-x-4 mt-6">
               <a 
-                href="#" 
+                href="https://www.facebook.com/people/LR-Est%C3%A9tica-Avan%C3%A7ada/61572310883810/?mibextid=wwXIfr&rdid=gA004o94wweTSCmP&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1CTQDkg7kH%2F%3Fmibextid%3DwwXIfr"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-[#2C2416] hover:bg-[#FFF8E7] text-[#F4E4C1] hover:text-[#2C2416] p-3 rounded-full transition-colors duration-300"
                 aria-label="Facebook"
               >
