@@ -16,15 +16,15 @@ const Footer: React.FC = () => {
             />
           </div>          {/* Contato */}
           <div className="space-y-4">
-            <h4 className="text-xl font-bold text-[#2C2416]">Contato</h4>
+            <h4 className="text-xl font-bold text-[#A7720E]">Contato</h4>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <Phone size={20} className="text-[#2C2416]" />
-                <span className="text-[#2C2416] font-medium">+55 93058-0653</span>
+                <Phone size={20} className="text-[#A7720E]" />
+                <span className="text-[#6D450D] font-medium">+55 93058-0653</span>
               </div>
               <div className="flex items-start space-x-3">
-                <MapPin size={20} className="text-[#2C2416] mt-1" />
-                <div className="text-[#2C2416] font-medium">
+                <MapPin size={20} className="text-[#A7720E] mt-1" />
+                <div className="text-[#6D450D] font-medium">
                   <p>Rua Dr Luís Alberto Vieira dos Santos, 18</p>
                   <p>Edifício Carraro Tower</p>
                   <p>Atibaia, SP</p>
@@ -35,10 +35,10 @@ const Footer: React.FC = () => {
 
           {/* Horário e Redes Sociais */}
           <div className="space-y-4">
-            <h4 className="text-xl font-bold text-[#2C2416]">Horário de Funcionamento</h4>
+            <h4 className="text-xl font-bold text-[#A7720E]">Horário de Funcionamento</h4>
             <div className="flex items-start space-x-3">
-              <Clock size={20} className="text-[#2C2416] mt-1" />
-              <div className="text-[#2C2416] font-medium">
+              <Clock size={20} className="text-[#A7720E] mt-1" />
+              <div className="text-[#6D450D] font-medium">
                 <p>Segunda a Sexta</p>
                 <p>Somente com horário marcado</p>
               </div>
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
 
         {/* Copyright */}
         <div className="border-t border-[#2C2416]/20 mt-8 pt-6 text-center">
-          <p className="text-[#2C2416] font-medium">
+          <p className="text-[#6d450d] font-medium">
             © 2025 LR Estética. Todos os direitos reservados.
           </p>
         </div>

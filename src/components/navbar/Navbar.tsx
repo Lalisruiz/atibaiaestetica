@@ -8,7 +8,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className=" mx-auto px-4 py-4 bg-linear-to-b from-[#F4E4C1] to-[#D4AF37] fixed top-0   w-full ">
+        <nav className=" mx-auto px-4 py-4 bg-[#f9f5f3] fixed top-0   w-full ">
             <div className="flex justify-between items-center">
                 <div className="flex items-center space-x-2">
                   <a href="#home">
@@ -16,12 +16,12 @@ export default function Navbar() {
                     </a>
                 </div>
                 
-                <ul className="hidden md:flex space-x-8 mt-4 text-[#2C2416] font-bold">
-                    <li><a href="#home" className="hover:text-[#FCFEFE] transition">Home</a></li>
-                    <li><a href="#especialidades" className="hover:text-[#FCFEFE] transition">Especialidades</a></li>
-                    <li><a href="#sobre" className="hover:text-[#FCFEFE] transition">Sobre</a></li>
-                    <li><a href="#espaco" className="hover:text-[#FCFEFE] transition">Espaço</a></li>
-                    <li><a href="#transformacoes" className="hover:text-[#FCFEFE] transition">Transformações</a></li>
+                <ul className="hidden md:flex space-x-8 mt-4 text-[#A7720E] font-bold">
+                    <li><a href="#home" className="hover:text-[#6D450D] transition">Home</a></li>
+                    <li><a href="#especialidades" className="hover:text-[#6D450D] transition">Especialidades</a></li>
+                    <li><a href="#sobre" className="hover:text-[#6D450D] transition">Sobre</a></li>
+                    <li><a href="#espaco" className="hover:text-[#6D450D] transition">Espaço</a></li>
+                    <li><a href="#transformacoes" className="hover:text-[#6D450D] transition">Transformações</a></li>
                 </ul>
       
                 <button 

@@ -9,11 +9,11 @@ const Home: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
 
             <div className="flex-1 text-left">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6 leading-tight">
-                Unindo tecnologia e ciência a serviço da sua beleza
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#A7720E] mb-6 leading-tight">
+                Ciência avançada para realçar sua beleza
               </h1>
-              <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
-                Proporcionamos os melhores tratamentos estéticos faciais e corporais com tecnologia de ponta e profissionais altamente qualificados.
+              <p className="text-lg md:text-xl text-[#6D450D] mb-8 leading-relaxed">
+               Protocolos exclusivos com equipamentos de última geração e profissionais altamente capacitados, oferecendo resultados visíveis e seguros em tratamentos corporais e faciais.
               </p>
               <button className="btn-primary text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg">
                 Faça seu agendamento
@@ -38,8 +38,8 @@ const Home: React.FC = () => {
               <div className="w-20 h-20 mx-auto mb-6  flex items-center justify-center">
                 <SmileyIcon size={80} className="text-[#D4AF37]" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Estética Facial</h3>
-              <p className="text-gray-600">Proporciona cuidados específicos para o rosto através das mais modernas técnicas</p>
+              <h3 className="text-xl font-semibold text-[#A7720E] mb-3">Estética Facial</h3>
+              <p className="text-[#6D450D]">Proporciona cuidados específicos para o rosto através das mais modernas técnicas</p>
             </div>
 
 
@@ -47,8 +47,8 @@ const Home: React.FC = () => {
               <div className="w-20 h-20 mx-auto mb-6  flex items-center justify-center">
                 <PersonIcon size={80} className="text-[#D4AF37]" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Estética Corporal</h3>
-              <p className="text-gray-600">Tratamentos corporais personalizados para seu bem-estar</p>
+              <h3 className="text-xl font-semibold text-[#A7720E] mb-3">Estética Corporal</h3>
+              <p className="text-[#6D450D]">Tratamentos corporais personalizados para seu bem-estar</p>
             </div>
 
 
@@ -56,8 +56,8 @@ const Home: React.FC = () => {
               <div className="w-20 h-20 mx-auto mb-6  flex items-center justify-center">
                <PlusCircleIcon size={80} className="text-[#D4AF37]" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Pré e Pós-Operatório</h3>
-              <p className="text-gray-600">Cuidados especializados para recuperação e saúde da pele</p>
+              <h3 className="text-xl font-semibold text-[#A7720E] mb-3">Pré e Pós-Operatório</h3>
+              <p className="text-[#6D450D]">Cuidados especializados para recuperação e saúde da pele</p>
             </div>
 
 
