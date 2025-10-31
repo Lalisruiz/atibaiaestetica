@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
             <img 
               src="https://i.ibb.co/99601sS7/logolrestetica-Photoroom-1.png" 
               alt="LR Estética Logo" 
-              className="w-48 h-auto object-contain mt-8" 
+              className="w-48 h-auto object-contain mt-16" 
             />
           </div>          {/* Contato */}
           <div className="space-y-4">
