@@ -2,6 +2,7 @@
 import Footer from './components/footer/Footer'
 import Navbar from './components/navbar/Navbar'
 import Home from './pages/home/Home'
+import Sobre from './pages/sobre/Sobre'
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <Sobre />
       <Footer />
     </>
   )
