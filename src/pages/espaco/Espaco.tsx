@@ -12,7 +12,7 @@ function Espaco() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
 
-                <div className="aspect-[4/3] bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl shadow-lg overflow-hidden">
+                <div className="aspect-4/3 bg-linear-to-br  from-[#F4E4C1] to-[#f9f5f3] rounded-2xl shadow-lg overflow-hidden">
                     <div className="w-full h-full flex items-center justify-center">
                         <div className="text-center text-[#A7720E]">
                             <svg className="w-20 h-20 mx-auto mb-4" viewBox="0 0 100 100" fill="currentColor">
@@ -26,7 +26,7 @@ function Espaco() {
                 
              
              
-                <div className="aspect-[4/3] bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl shadow-lg overflow-hidden">
+                <div className="aspect-4/3 bg-linear-to-br from-[#F4E4C1] to-[#f9f5f3]  rounded-2xl shadow-lg overflow-hidden">
                     <div className="w-full h-full flex items-center justify-center">
                         <div className="text-center text-[#A7720E]">
                             <svg className="w-20 h-20 mx-auto mb-4" viewBox="0 0 100 100" fill="currentColor">
@@ -40,7 +40,7 @@ function Espaco() {
                 
               
               
-                <div className="aspect-[4/3] bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl shadow-lg overflow-hidden">
+                <div className="aspect-4/3 bg-linear-to-br from-[#F4E4C1] to-[#f9f5f3]  rounded-2xl shadow-lg overflow-hidden">
                     <div className="w-full h-full flex items-center justify-center">
                         <div className="text-center text-[#A7720E]">
                             <svg className="w-20 h-20 mx-auto mb-4" viewBox="0 0 100 100" fill="currentColor">

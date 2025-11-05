@@ -51,7 +51,7 @@ function Sobre() {
               
               
                 <div className="flex-1 flex justify-center">
-                    <div className="w-full max-w-md aspect-3/4 bg-gradient-to-br from-pink-200 via-pink-300 to-pink-400 rounded-3xl shadow-2xl flex items-center justify-center">
+                    <div className="w-full max-w-md aspect-3/4 bg-linear-to-br from-pink-200 via-pink-300 to-pink-400 rounded-3xl shadow-2xl flex items-center justify-center">
                         <div className="text-center text-white">
                         <img className="w-full rounded-4xl" src="https://i.ibb.co/rGwvDRvT/Captura-de-tela-2025-11-03-205002.png" alt="" />
                             
