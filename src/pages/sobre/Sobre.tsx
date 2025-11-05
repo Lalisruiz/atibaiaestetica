@@ -2,7 +2,7 @@
 function Sobre() {
   return (
     <>
-     <section id="sobre" className="py-20 bg-white">
+     <section id="sobre" className="py-20 bg-linear-to-b from-[#F4E4C1] to-[#f9f5f3]">
         <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row items-center gap-12">
               
